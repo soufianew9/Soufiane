@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    int nombre;
+
+    printf("Entrez un nombre entier : ");
+    if (scanf("%d", &nombre) != 1) {
+        printf("Entrée invalide.\n");
+        return 1;
+    }
+
+    if (nombre % 2 == 0) {
+        printf("%d est pair.\
+
+    return 0;
+}
